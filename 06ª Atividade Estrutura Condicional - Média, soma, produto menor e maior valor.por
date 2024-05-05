@@ -1,15 +1,15 @@
 programa {
   funcao inicio() {
-  //Declaração de variáveis.
+  //DeclaraÃ§Ã£o de variÃ¡veis.
 
   inteiro soma, produto, menorValor, maiorValor, primeiroNumero, segundoNumero, igual
   real media 
-  //Solicitando dados para o usuário.
+  //Solicitando dados para o usuÃ¡rio.
 
-  escreva("Digite o primeiro número: ")
+  escreva("Digite o primeiro nÃºmero: ")
   leia(primeiroNumero)
 
-  escreva("Digite o segundo número: ")
+  escreva("Digite o segundo nÃºmero: ")
   leia(segundoNumero)
 
 
@@ -38,12 +38,12 @@ programa {
  limpa()
 
  escreva(" === EXIBINDO RESULTADOS ==== ")
- escreva("\nA soma dos números é: ", soma)
- escreva("\nO produto desses número é: ", produto)
- escreva("\nA média é: ", media)
- escreva("\nO menor valor entres os números é: ", menorValor)
- escreva("\nO maior valor entre os números é: ", maiorValor)
- escreva("\nOs números são iguais: ", igual) 
+ escreva("\nA soma dos nÃºmeros Ã©: ", soma)
+ escreva("\nO produto desses nÃºmero Ã©: ", produto)
+ escreva("\nA mÃ©dia Ã©: ", media)
+ escreva("\nO menor valor entres os nÃºmeros Ã©: ", menorValor)
+ escreva("\nO maior valor entre os nÃºmeros Ã©: ", maiorValor)
+ escreva("\nOs nÃºmeros sÃ£o iguais: ", igual) 
 
 
   }
