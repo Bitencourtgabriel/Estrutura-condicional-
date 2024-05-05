@@ -2,11 +2,11 @@ programa {
   inclua biblioteca Matematica --> mat
   funcao inicio() {
     
-  // Declarando as varáveis.
+  // Declarando as varÃ¡veis.
   cadeia nome
   real notaUm, notaDois, soma, media
   real arredonda
-  // Solicitando dados ao usuário.
+  // Solicitando dados ao usuÃ¡rio.
 
   escreva ("Informe seu nome: ")
   leia(nome)
@@ -17,14 +17,14 @@ programa {
   escreva ("Informe sua II nota: ")
   leia(notaDois)
 
-  // cálculo média.
+  // cÃ¡lculo mÃ©dia.
   media = (notaUm + notaDois) / 2
   arredonda = mat.arredondar(media,2)
 
 // Exibindo Resultado.
-escreva ("A média do aluno: ",media)
+escreva ("A mÃ©dia do aluno: ",media)
 
-  // Condição Se e Senão.
+  // CondiÃ§Ã£o Se e SenÃ£o.
   se (media >= 9){
     escreva ("\nConceito: A\n")
     escreva ("Aluno aprovado!\n")
