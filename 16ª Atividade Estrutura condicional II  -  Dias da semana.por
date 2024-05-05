@@ -1,22 +1,22 @@
 programa {
   funcao inicio() {
-  //Declaração de variáveis
+  //DeclaraÃ§Ã£o de variÃ¡veis
 
   inteiro  diaDaSemana
 
 
-  //Solicitando dados ao usuário.
+  //Solicitando dados ao usuÃ¡rio.
 
   escreva("        Dias da semana    ")
   escreva("\n1    Domingo ")
   escreva("\n2    Segunda - feira ")
-  escreva("\n3    Terça   - feira ")
+  escreva("\n3    TerÃ§a   - feira ")
   escreva("\n4    Quarta  - feira ")
   escreva("\n5    Quinta  - feira ")
   escreva("\n6    Sexta   - feira ")
-  escreva("\n7    Sábado  ")
+  escreva("\n7    SÃ¡bado  ")
   
-  escreva("\nEscolha um número: ")
+  escreva("\nEscolha um nÃºmero: ")
   leia(diaDaSemana)
 
   limpa()
@@ -32,36 +32,36 @@ programa {
 
     caso 2:
     escreva("Segunda - Feira")
-    escreva("\nDia útil")
+    escreva("\nDia Ãºtil")
     pare
 
     caso 3:
-    escreva("Terça - Feira")
-    escreva("\nDia útil")
+    escreva("TerÃ§a - Feira")
+    escreva("\nDia Ãºtil")
     pare
 
     caso 4:
     escreva("Quarta - Feira")
-    escreva("\nDia útil")
+    escreva("\nDia Ãºtil")
     pare
 
     caso 5: 
     escreva("Quinta - Feira")
-    escreva("\nDia útil")
+    escreva("\nDia Ãºtil")
     pare
 
     caso 6: 
     escreva("Sexta - Feira")
-    escreva("\nDia útil")
+    escreva("\nDia Ãºtil")
     pare
 
     caso 7:
-    escreva("Sábado")
+    escreva("SÃ¡bado")
     escreva("\nFim de semana")
     pare
 
     caso contrario : 
-    escreva("Inválido")
+    escreva("InvÃ¡lido")
   }
 
    }
