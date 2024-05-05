@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-   //DeclaraÁ„o de vari·veis.
+   //Declara√ß√£o de vari√°veis.
 
    inteiro menu 
 
@@ -10,15 +10,15 @@ programa {
    escreva("\n")
 
 
-   //Solicitando dados ao usu·rio.
+   //Solicitando dados ao usu√°rio.
 
    escreva(" =============== MENU ================= ")
-   escreva("\n CÛdigo   \t\tPrato       \t\t\tValor")
+   escreva("\n C√≥digo   \t\tPrato       \t\t\tValor")
    escreva("\n 1   \t\t\t\tPicanha   \t\t\t\tR$ 25.00")
    escreva("\n 2   \t\t\t\tLasanha   \t\t\t\tR$ 20.00")
    escreva("\n 3   \t\t\t\tStrogonoff   \t\t\tR$ 18.00")
    escreva("\n 4   \t\t\t\tBife acebolado \t\tR$ 15.00")
-   escreva("\n 5   \t\t\t\tP„o com ovo  \t\t\tR$ 05.00")
+   escreva("\n 5   \t\t\t\tP√£o com ovo  \t\t\tR$ 05.00")
    
    escreva("\n")
 
@@ -28,57 +28,57 @@ programa {
    limpa()
 
 
-   //Exibindo resultado ao usu·rio.
+   //Exibindo resultado ao usu√°rio.
 
    escolha (menu){
 
     caso 1:
-    escreva("OpÁ„o escolhida")
+    escreva("Op√ß√£o escolhida")
     escreva("\nPrato: Picanha")
     escreva("\nValor: R$ 25.00")
     escreva("\n")
-    escreva("\n… sÛ aguardar um instante que sua refeiÁ„o j· vem.")
+    escreva("\n√â s√≥ aguardar um instante que sua refei√ß√£o j√° vem.")
     pare
 
     caso 2:
-    escreva("OpÁ„o escolhida")
+    escreva("Op√ß√£o escolhida")
     escreva("\nPrato: Lasanha")
     escreva("\nValor: R$ 20.00")
     escreva("\n")
-    escreva("\n… sÛ aguardar um instante que sua refeiÁ„o j· vem.")
+    escreva("\n√â s√≥ aguardar um instante que sua refei√ß√£o j√° vem.")
     pare
 
     caso 3:
-    escreva("OpÁ„o escolhida")    
+    escreva("Op√ß√£o escolhida")    
     escreva("\nPrato: Strogonoff")
     escreva("\nValor: R$ 18.00") 
     escreva("\n")    
-    escreva("\n… sÛ aguardar que sua refeiÁ„o j· vem.")
+    escreva("\n√â s√≥ aguardar que sua refei√ß√£o j√° vem.")
     pare
 
     caso 4:
-    escreva("OpÁ„o escolhida")
+    escreva("Op√ß√£o escolhida")
     escreva("\nPrato: Bife acebolado")
     escreva("\nValor: R$ 15.00") 
     escreva("\n")
-    escreva("\n… sÛ aguardar que sua refeiÁ„o j· vem.")
+    escreva("\n√â s√≥ aguardar que sua refei√ß√£o j√° vem.")
     pare
 
     caso 5:
-    escreva("OpÁ„o escolhida")
-    escreva("\nPrato: P„o com ovo")
+    escreva("Op√ß√£o escolhida")
+    escreva("\nPrato: P√£o com ovo")
     escreva("\nValor: R$ 5.00") 
     escreva("\n")
-    escreva("\n… sÛ aguardar que sua refeiÁ„o j· vem.")  
+    escreva("\n√â s√≥ aguardar que sua refei√ß√£o j√° vem.")  
     pare
 
     caso contrario:
-    escreva("OpÁ„o inv·lida!!")
+    escreva("Op√ß√£o inv√°lida!!")
    }
 
 
     //Mensagem comunicativa.
     escreva("\n")
-    escreva("\nObrigado pela preferÍncia! ")
+    escreva("\nObrigado pela prefer√™ncia! ")
   }
 }
