@@ -2,13 +2,13 @@ programa {
 
   inclua biblioteca Matematica --> mat
   funcao inicio() {
-  //DeclaraÁ„o de vari·vel.
+  //Declara√ß√£o de vari√°vel.
 
   caracter sexo 
   real altura, peso_ideal
   real arredonda
 
-  //Solicitando dados ao usu·rio.
+  //Solicitando dados ao usu√°rio.
 
   escreva("    Informe seu sexo usando as letras M ou F")
   escreva("\n")
@@ -44,11 +44,11 @@ programa {
     pare
 
     caso contrario :
-    escreva("Sexo inv·lido")
+    escreva("Sexo inv√°lido")
 
   }
 
-  escreva("\nO peso ideal È: "+arredonda)
+  escreva("\nO peso ideal √©: "+arredonda)
 
   }
 }
